@@ -1,0 +1,5 @@
+spring.redis.host=localhost
+spring.redis.port=6370
+spring.redis.timeout=1000
+logging.level.org.springframework.data.redis=WARN
+logging.level.root=WARN
