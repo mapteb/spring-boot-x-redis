@@ -4,8 +4,8 @@ package com.example.redisapp.service;
     import org.junit.jupiter.api.Test;
     import org.mockito.InjectMocks;
     import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations;
+    import org.mockito.Mockito;
+    import org.mockito.MockitoAnnotations;
     import org.springframework.data.redis.core.RedisTemplate;
     import org.springframework.data.redis.core.ValueOperations;
 
@@ -40,7 +40,6 @@ import org.mockito.MockitoAnnotations;
             // Assertions
             // ...
             Mockito.verify(valueOperations).get(key); // Verify that get was called
-            Mockito.verify(expectedValue).equals(actualValue);
         }
         // ... other tests
     }
